@@ -19,7 +19,10 @@
 8. Wait for user input, then close the graphics window.
 
 ---
+## Matrics Form:
+In Matrix form, the above translation equations may be represented as- 
 
+---
 ## 2D Translation Visualization:
 
 Here is a visual representation of how the 2D Translation algorithm works:
