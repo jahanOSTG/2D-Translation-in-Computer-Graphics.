@@ -4,54 +4,24 @@
 
 ## **Algorithm for 2D Translation**
 
-### **Input:**
-- Initial coordinates of the object: 
-  \( (X_{\text{old}}, Y_{\text{old}}) \)
-  
-- Translation vector: 
-  \( (T_x, T_y) \)
-  - \( T_x \): The shift in the X direction
-  - \( T_y \): The shift in the Y direction
-
-### **Output:**
-- Translated coordinates of the object:
-  \( (X_{\text{new}}, Y_{\text{new}}) \)
-
----
-
-### **Steps:**
-
-#### 1. **Define the Coordinates:**
-   - Let the initial point \( O \) have coordinates \( (X_{\text{old}}, Y_{\text{old}}) \).
-   - Let the translation vector be given by \( (T_x, T_y) \), where:
-     - \( T_x \): The translation along the X-axis.
-     - \( T_y \): The translation along the Y-axis.
-
-#### 2. **Translation Formula:**
-   After applying the translation, the new coordinates of the point \( O \) can be computed as:
-   - \( X_{\text{new}} = X_{\text{old}} + T_x \)  *(Translation towards the X-axis)*
-   - \( Y_{\text{new}} = Y_{\text{old}} + T_y \)  *(Translation towards the Y-axis)*
-
-#### 3. **Perform the Translation:**
-   - **Update the position** by adding the translation values to the original coordinates:
-     - \( X_{\text{new}} = X_{\text{old}} + T_x \)
-     - \( Y_{\text{new}} = Y_{\text{old}} + T_y \)
-
-#### 4. **Output the Result:**
-   - The new coordinates \( (X_{\text{new}}, Y_{\text{new}}) \) are the translated position of the point \( O \).
+1. Start the graphics mode using `initgraph()`.
+2. Set background color (e.g., white) and clear the screen.
+3. Define the coordinates of the original rectangle (`x1`, `y1`, `x2`, `y2`).
+4. Ask the user to input translation values `tx` and `ty`.
+5. Draw the original rectangle and label it.
+6. Apply translation:
+   - New coordinates:
+     - `x1' = x1 + tx`
+     - `y1' = y1 + ty`
+     - `x2' = x2 + tx`
+     - `y2' = y2 + ty`
+7. Draw the translated rectangle using the new coordinates and label it.
+8. Wait for user input, then close the graphics window.
 
 ---
 
-## **Summary of the Algorithm:**
+## Output:
+**Visualization of 2D translation for Rectangle:**
 
-1. **Input:**
-   - Initial coordinates of the object \( (X_{\text{old}}, Y_{\text{old}}) \)
-   - Translation vector \( (T_x, T_y) \)
-   
-2. **Steps:**
-   - Compute the new coordinates using the translation formulas:
-     - \( X_{\text{new}} = X_{\text{old}} + T_x \)
-     - \( Y_{\text{new}} = Y_{\text{old}} + T_y \)
-
-3. **Output:**
-   - The translated coordinates \( (X_{\text{new}}, Y_{\text{new}}) \)
+![2D Translation Output]
+(path/to/your/output_image.png)
