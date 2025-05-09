@@ -1,4 +1,4 @@
-# 2D Translation Algorithm
+# 2D Translation 
 
 **Translation** is a process in which the position of an object in a 2D plane is moved from its original position to a new position based on a given translation vector. Below is the step-by-step algorithm to perform the 2D translation operation.
 
@@ -22,7 +22,7 @@
 ## Matrics Form:
 In Matrix form, the above translation equations may be represented as- 
 
-<img src="m1.png" width="400" height="300" alt="2D Translation">
+<img src="m1.png" width="500" height="300" alt="2D Translation">
 
 - The **homogeneous coordinates** representation of a point **(X, Y)** is **(X, Y, 1)**.  
 - Using this representation, all the transformations (such as translation, scaling, rotation) can be performed using **matrix/vector multiplications**.
@@ -33,14 +33,14 @@ In Matrix form, the above translation equations may be represented as-
 
 To translate a point by `(tx, ty)`, the transformation matrix is:
 
-
+<img src="m2.png" width="500" height="300" alt="2D Translation">
 
 ---
 ## 2D Translation Visualization:
 
 Here is a visual representation of how the 2D Translation algorithm works:
 
-<img src="translation output.png" width="400" height="300" alt="2D Translation">
+<img src="translation output.png" width="500" height="400" alt="2D Translation">
 
 ---
 
