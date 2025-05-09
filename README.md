@@ -22,6 +22,19 @@
 ## Matrics Form:
 In Matrix form, the above translation equations may be represented as- 
 
+<img src="m1.png" width="400" height="300" alt="2D Translation">
+
+- The **homogeneous coordinates** representation of a point **(X, Y)** is **(X, Y, 1)**.  
+- Using this representation, all the transformations (such as translation, scaling, rotation) can be performed using **matrix/vector multiplications**.
+
+---
+
+### **Translation Matrix Representation in Homogeneous Coordinates:**
+
+To translate a point by `(tx, ty)`, the transformation matrix is:
+
+
+
 ---
 ## 2D Translation Visualization:
 
