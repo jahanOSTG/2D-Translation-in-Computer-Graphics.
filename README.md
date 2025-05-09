@@ -34,3 +34,12 @@ For a more detailed explanation of the 2D Translation algorithm, check out the f
 
 [Click here for Documentation](https://drive.google.com/file/d/1Znpvm0swGvaYhtxQ1xFYPtr9QJh5-Tdn/view?usp=sharing)
 
+---
+## Required Tools:
+
+- **Dev-C++ IDE**
+- **WinBGIm Graphics Library** (included with or added to Dev-C++)
+- **C++ Compiler** (such as TDM-GCC that comes with Dev-C++)
+- **Windows Operating System** (Graphics.h is platform-specific)
+
+
