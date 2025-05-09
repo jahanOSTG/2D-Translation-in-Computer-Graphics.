@@ -20,8 +20,17 @@
 
 ---
 
-## Output:
-**Visualization of 2D translation for Rectangle:**
+## 2D Translation Visualization:
 
-![2D Translation Output]
-(path/to/your/output_image.png)
+Here is a visual representation of how the 2D Translation algorithm works:
+
+<img src="translation output.png" width="400" height="300" alt="2D Translation">
+
+---
+
+## Documentation:
+
+For a more detailed explanation of the 2D Translation algorithm, check out the full documentation:
+
+[Click here for Documentation](https://drive.google.com/file/d/1Znpvm0swGvaYhtxQ1xFYPtr9QJh5-Tdn/view?usp=sharing)
+
